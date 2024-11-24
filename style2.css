@@ -1,0 +1,355 @@
+
+body{margin: 0;
+	box-sizing: border-box;
+
+
+	background-color: white;
+
+	background-image: url(AdobeStock_705799661.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+	#NavBar ul{ 
+		list-style-type: none;
+		justify-content: space-between;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+	
+		
+	}
+	
+	#NavBarLinks {
+	float: left;
+	margin: 0;
+	}
+	#NavBarLinks li {
+		margin: 0;
+		text-decoration: none;
+	
+		}
+	#NavBar a{
+		color: white;
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+		float: right;
+		right: 0;
+		color: black;
+		font-size: 1.5em;
+		
+	}
+	
+	#NavBar a:hover{
+		background-color: hsl(0, 0%, 100%);
+		color: black;
+	}
+	#Navbar {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+	
+	} 
+	#ExtraHome {
+		display: none;
+	}
+	
+	
+	
+	@media screen and (max-width: 371px) {
+		#ExtraHome {
+		  display: block;
+		}
+		#Home  {
+		  display: none;
+		}
+		#NavBar a{
+			font-size: 1.2em;
+			display: flex;
+			justify-content: space-between;
+			padding-left: 21px;
+			
+	
+		}
+	  }
+	  
+	
+	  @media screen and (max-width: 345px) {
+		 #NavBar a {
+			padding-left: 14px;
+		 }
+	  }
+	
+	@keyframes FadeDing{
+		0% {opacity: 0;
+			transform: scale(0.9);
+			 
+		}
+		100% { opacity: 1;
+				transform: scale(1);
+	
+		}
+	}
+	
+	main , footer {
+		animation-name: FadeDing;
+		animation-duration: 1.5s;
+	}
+	
+	main {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	
+	.TitelTeksten {
+		display: flex;
+		justify-content: center;
+	}
+	
+	#Hoofdtekst1, #Hoofdtekst2 {
+		margin-bottom: 60px;
+	}
+	#HoofdTekst2 {
+		margin-top: 60px;
+	}
+	
+
+	#Container {
+	    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    justify-items: center; 
+    align-items: center; 
+    padding: 20px;
+
+
+	}
+	#Container2 {
+		display: flex;
+		gap: 40px;
+		margin: 0 auto;  
+		justify-content: center;
+	}
+
+	#Mavo {
+		margin-bottom: 22px;
+	}
+	#ICT {
+		margin-bottom: 61px;
+	}
+
+
+.Studie {
+	max-width: 100%;
+}
+
+
+.Studie img {
+    width: 400px;
+    border: 2px solid black; 
+    margin-bottom: 20px; 
+	
+	
+}
+
+
+
+
+.Studie p {
+    width: 100%; 
+    max-width: 400px;
+    font-size: 1.1em; 
+    text-align: center; 
+margin: auto;
+  
+
+
+
+	text-align: center;
+
+	
+}
+.Studie h3 {
+	text-align: center;
+	
+}
+.Studie li {
+	text-align: center;
+	text-decoration: none;
+}
+
+.Studie ul {
+	list-style-type: none; 
+}
+
+@media screen and (max-width: 1300px) {
+     #Container, #Container2 {
+		display: grid;
+		grid-template-columns: 1fr;
+
+	 }
+
+    .Studie {
+        max-width: 100%; 
+    }
+
+    .Studie img {
+		margin: auto;    
+        display: block;  
+        width: 700px; 
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.Studie h3{
+		display: block;
+		margin: auto;
+	}
+	.Studie h3 {
+        text-align: center; 
+        margin: 0 auto;
+}
+.Studie p {
+	margin-top: 200px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 100%;
+	
+}
+#MijnCV {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	font-size: 1.5em;
+}
+
+main{
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+}
+@media screen and (max-width: 700px) {
+	.Studie img {
+		margin: auto;    
+        display: block;  
+        width: 500px; 
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+}
+
+
+@media screen and (max-width: 550px) {
+	.Studie img {
+		margin: auto;    
+        display: block;  
+        width: 350px; 
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+.Studie p {
+	max-width: 350px;
+	font-size: 1em;
+}
+#MijnCV {
+
+	font-size: 1.2em;
+}
+}
+
+@media screen and (max-width: 400px) {
+	.Studie img {
+		margin: auto;    
+        display: block;  
+        width: 270px; 
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+.Studie p {
+	max-width: 240px;
+	font-size: 0.8em;
+}
+
+}
+
+	footer{
+		border: 2px solid black;
+		padding: 0px;
+		margin: 0px;
+		background-color: rgb(255, 255, 255);
+		padding-left: 20px;
+		padding-bottom: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		width: 400px;
+		margin-top: 200px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	
+	
+		}
+	
+	#Telefoon {
+		display: flex;
+	}
+	
+	#TelefoonIcon {
+	   color: black;
+		margin-right: 10px;
+	}
+	
+	#TelefoonIcon:hover{
+		color: rgb(0, 4, 255);
+	}
+	
+	#Telefoonnummer2 {
+		text-decoration: none;
+		color: black;
+	}
+	
+	#Telefoonnummer2:hover {
+		color: rgb(0, 4, 255);
+	}
+	
+	#Email3 {
+		text-decoration: none;
+		color: black;
+	}
+	
+	#Email3:hover {
+		color: rgb(0, 4, 255);
+	}
+	
+	#Email2{
+		display: flex;
+	}
+	#EmailIcon{
+		color: black;
+		margin-right: 10px;
+	}
+	#EmailIcon:hover{
+		color: rgb(0, 4, 255);
+	}
+	@media screen and (max-width: 900px) {
+		footer {
+			margin: auto;
+			margin-top: 80px;
+			margin-bottom: 20px;
+	
+		}
+	}
+	@media screen and (max-width: 425px) {
+		footer {
+			width: 280px;
+	
+		}
+		
+	} 

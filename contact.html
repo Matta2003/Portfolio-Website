@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" href="style4.css">
+	<link rel="icon" type="image/png" href="">
+	<script src="https://kit.fontawesome.com/7da8414ecc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<div id="NavBar">
+	<nav id="NavBarLinks">
+		<div id="Home">
+		<a href="index.html">Home</a>
+	</div>
+	</nav>
+		<nav id="NavBarRechts">
+			<ul>
+				<ul>
+				
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="CV.html">CV</a></li>
+					<li id="ExtraHome"><a href="index.html">Home</a></li>
+				</ul>
+			</ul>
+		</nav>
+		</div>
+	
+	
+	</header>
+	<main>
+		<div id="HoofdTekstBlok">
+		<h1 id="HoofdTitel">ContactOpnemen</h1>
+		<p id="HoofdTekst">Voor vragen, stage- of baanaanbiedingen kunt u gerust contact met mij opnemen via de onderstaande Contactgegevens  of door de contactformulier in te vullen </p>
+	</div>
+		<div id="Contact">
+			<h2>
+				Contactgegevens
+			</h2>
+			<div id="TelNummerblok" class="Contactitem">
+
+				<h4 class="BlokTitel">Telefoonnummer:</h4>
+				<a href="tel:+31655016395" class="BlokTekst" id="Telefoonnummer2">0655016395</a>
+			</div>
+			<div id="Emailblok" class="Contactitem">
+
+				<h4 class="BlokTitel">Email:</h4>
+				<a href="mailto:mathijsgravemaker@hotmail.com" class="BlokTekst" id="Email3">mathijsgravemaker@hotmail.com</a>
+			</div>
+			<div id="Whatsappblok">
+
+				<h4 class="BlokTitel" class="BlokTekst">Whatsapp:</h4>
+				<img src="Image 1.png" id="WhatSappIMG" alt="Whatsapp QR code">
+			</div>
+			
+
+
+		</div>
+
+		<div id="Formulier">
+			<div id="TennisFormDiv">
+				<form action="process-form.php" method="post">
+				  <h2>Contact Formulier</h2>
+				  <br>
+	  
+				  <label for="Voornaam">Voornaam:</label>
+				  <input type="text" id="Voornaam" placeholder="Voornaam" required name="Voornaam">
+				  <br><br>
+	  
+				  <label for="Achternaam">Achternaam:</label>
+				  <input type="text" id="Achternaam" placeholder="Achternaam" required name="Achternaam">
+				  <br><br>
+	  
+				  <label for="Email">Email:</label>
+				  <input type="email" id="Email" placeholder="voorbeeld@gmail.com" required minlength="4" name="Email">
+				  <br><br>
+	  
+				  <label for="Telefoonnummer">Telefoonnummer:</label>
+				  <input type="tel" id="Telefoonnummer" placeholder="06-12345678 (Optioneel)" pattern="[0-6]{2}-[0-9]{8}" name="Telefoon">
+				  <br><br>
+
+				  <label for="Lijst">Waarvoor:</label>
+				  <select id="Lijst" name="Lijst">
+					<option value="1">Stageplek</option>
+					<option value="2">Werkaanbieding</option>
+					<option selected value="3">Anders</option>
+				  </select>
+
+				  <br><br>
+	  
+			  <label id="tekst1" for="Bericht">Bericht:</label>
+			  <textarea name="Bericht" rows="5" cols="35" id="Bericht"></textarea>
+	  
+				  <br> <br>
+				  <div id="Knoppen">
+					  <div id="ResetKnop">
+				  <button class="Knop" type="reset" id="ResetKnop2">
+					  <i class="fa-solid fa-arrows-rotate Knop2"></i>
+				  </button>
+			  </div>
+			  <div id="VerzendKnop">
+				  <button class="Knop" type="submit" id="VerzendKnop2">
+					  <i class="fa-solid fa-paper-plane Knop2"></i>
+				  </button>
+				  </div> </div>
+	  
+				</form>
+	  
+			  </div>
+	  
+			
+
+
+
+
+
+		</div>
+
+	</main>
+
+</body>
+
+</html>
